@@ -11,13 +11,13 @@ function draw() {
 	background(0)
 
 	if(mouseY>=height/2 && mouseX<=width/2)  
-    fill(0,0,255);
+    fill(0,206,209);
 
     else if(mouseY<height/2 && mouseX<=width/2) 
-    fill(255,0,0);
+    fill(165,42,42);
 
     else if(mouseY<height/2 && mouseX>width/2) 
-    fill(0,255,0); 
+    fill(50,205,50); 
 
 	else{
 		 noFill();
